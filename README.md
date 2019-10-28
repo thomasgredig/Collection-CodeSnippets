@@ -28,3 +28,4 @@ For long subscripts, use explicit `\mathrm`:
 ```LaTeX
 B_{\mathrm{eff}} = B_0 \left( 1-\sigma \right)
 ```
+![Beff = B0 (1-sigma)](images/Beff.png)
