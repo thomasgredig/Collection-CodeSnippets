@@ -22,3 +22,9 @@ Using SI units
 \sisetup{detect-weight=true, detect-family=true}
 \DeclareSIUnit\mu{m.u.}
 ```
+
+For long subscripts, use explicit `\mathrm`:
+
+```LaTeX
+B_{\mathrm{eff}} = B_0 \left( 1-\sigma \right)
+```
