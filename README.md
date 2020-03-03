@@ -14,9 +14,9 @@ ggplot(d1, aes(reorder(x,y),y)) +
   theme_bw()
 ```
 
-Here is an example graph:
+Here is an example graph from [factor-ordering-ggplot2.R](R/factor-ordering-ggplot2.R):
 
-![Chaning the order of the x-axis](factor-ordering-ggplot2.png)
+![Chaning the order of the x-axis](images/factor-ordering-ggplot2.png)
 
 
 ## Loading Functions
