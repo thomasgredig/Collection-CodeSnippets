@@ -16,8 +16,14 @@ ggplot(d1, aes(reorder(x,y),y)) +
 
 Here is an example graph from [factor-ordering-ggplot2.R](R/factor-ordering-ggplot2.R):
 
-![Chaning the order of the x-axis](images/factor-ordering-ggplot2.png)
+![Changing the order of the x-axis](images/factor-ordering-ggplot2.png)
 
+## Retrieve last element of list
+
+```r
+strsplit(k, ';') -> k2
+sapply(k2,tail,1)
+```
 
 ## Fill list
 
