@@ -19,6 +19,17 @@ Here is an example graph from [factor-ordering-ggplot2.R](R/factor-ordering-ggpl
 ![Chaning the order of the x-axis](images/factor-ordering-ggplot2.png)
 
 
+## Fill list
+
+If `n4` is a list and we want to convert it to  a matrix `n5`, we must first add empty elements to make each list element equally long, this can be done with the assignment function for `length`:
+
+```r
+n4.len = max(sapply(n4,length))
+n4 = lapply(n4, 'length<-', n4.len)
+matrix(unlist(n4),ncol=(n4.len)) -> n5
+```
+
+
 ## Loading Functions
 
 
