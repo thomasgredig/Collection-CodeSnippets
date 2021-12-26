@@ -46,6 +46,12 @@ for(q1 in dir('R', pattern='[^(main)].*\\.R$')) { source(file.path('R',q1)) }
 ```
 
 
+## Clear Environment Data
+
+```r
+rm(list=ls(all=TRUE))
+```
+
 
 # LaTeX
 
