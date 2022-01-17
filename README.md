@@ -18,6 +18,13 @@ Here is an example graph from [factor-ordering-ggplot2.R](R/factor-ordering-ggpl
 
 ![Changing the order of the x-axis](images/factor-ordering-ggplot2.png)
 
+## Find Root Directory
+
+```{r}
+library(rprojroot)
+find_root('DESCRIPTION')
+```
+
 ## Retrieve last element of list
 
 ```r
